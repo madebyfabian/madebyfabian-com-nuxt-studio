@@ -17,7 +17,7 @@
 </template>
 
 <script setup lang="ts">
-	const props = defineProps({
-		icon: { type: String, default: undefined },
-	})
+	const props = defineProps<{
+		icon?: 'info' | 'warning' | 'finger'
+	}>()
 </script>

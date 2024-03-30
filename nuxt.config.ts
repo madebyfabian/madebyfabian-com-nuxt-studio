@@ -6,11 +6,19 @@ export default defineNuxtConfig({
 		'@nuxt/content',
 		'@nuxtjs/tailwindcss',
 		'@nuxt/fonts',
+		'@vueuse/nuxt',
 	],
 
 	// @nuxt/content
 	content: {
 		// ... options
+	},
+
+	// @nuxtjs/tailwindcss
+	tailwindcss: {
+		exposeConfig: {
+			level: 2,
+		},
 	},
 
 	// @nuxt/fonts

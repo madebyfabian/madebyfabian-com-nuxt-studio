@@ -1,8 +1,8 @@
 <template>
-	<header class="LayoutHeader z-10 py-6 lg:py-14 mb-8 sticky">
+	<header class="GlobalHeader z-10 py-6 lg:py-14 mb-8 sticky">
 		<div
 			aria-hidden="true"
-			class="LayoutHeader-underlay"
+			class="underlay"
 			:class="[
 				'transition bg-gradient-to-b from-white to-white/75',
 				'backdrop-blur-lg shadow-border',
@@ -89,11 +89,11 @@
 </script>
 
 <style lang="postcss" scoped>
-	.LayoutHeader {
+	.GlobalHeader {
 		top: calc(v-bind(offsetPx) * -1);
 	}
 
-	.LayoutHeader-underlay {
+	.underlay {
 		height: 100%;
 		top: calc(v-bind(offsetPx) * -1);
 	}

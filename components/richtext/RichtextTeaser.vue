@@ -9,7 +9,7 @@
 		</div>
 		<div class="flex-1">
 			<h3 v-if="$slots.title">
-				<slot name="title" />
+				<ContentSlot :use="$slots.title" unwrap="p" />
 			</h3>
 			<slot />
 		</div>
@@ -17,7 +17,7 @@
 </template>
 
 <script setup lang="ts">
-	const props = defineProps<{
-		icon?: 'info' | 'warning' | 'finger'
-	}>()
+	const props = defineProps({
+		icon: { type: String, default: undefined },
+	})
 </script>

@@ -9,3 +9,9 @@ Before I became a freelancer, I had the privilege of working as a visual designe
 My ultimate goal has always been to help businesses and individuals create unique web experiences that reflect their values and goals. I believe that a website or app should be more than just a digital representation of a brand. It should be a reflection of the people and values behind it, and I am passionate about helping businesses bring their visions to life.
 
 In 2022, my dream finally came true and I started my own freelance web design business. I am now eager to use my skills and experience to help customers like you create websites and apps that not only look great, but also deliver results. So if you're looking for a web designer who is passionate, talented, and dedicated, look no further. I am here to help.
+
+::RichtextTeaser{icon="info"}
+# Richtext Title
+
+Richtext content
+::

@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss'
 import defaultTheme from 'tailwindcss/defaultTheme'
 import colors from 'tailwindcss/colors'
+import typographyPlugin from '@tailwindcss/typography'
 
 const borderColorDefault = 'rgb(31 41 55 / 0.1)' // border-gray-800/10
 const accentColor700 = 'rgb(42, 90, 203)' // custom accent color
@@ -15,6 +16,8 @@ export default <Partial<Config>>{
 	future: {
 		hoverOnlyWhenSupported: true,
 	},
+
+	plugins: [typographyPlugin],
 
 	theme: {
 		container: {

@@ -11,10 +11,16 @@ My ultimate goal has always been to help businesses and individuals create uniqu
 In 2022, my dream finally came true and I started my own freelance web design business. I am now eager to use my skills and experience to help customers like you create websites and apps that not only look great, but also deliver results. So if you're looking for a web designer who is passionate, talented, and dedicated, look no further. I am here to help.
 
 ::content-teaser
----
-icon: info
----
 Let me know what your dream project is all about.
+
+:::content-button-group
+::::content-button-link{url="/contact"}
+💬 Get in touch
+::::
+::::content-button-link{url="https://www.linkedin.com/in/fabian-beer/" target="\_blank" variant="secondary"}
+🔗 Connect on LinkedIn
+::::
+:::
 
 #title
 Ready when you are!
